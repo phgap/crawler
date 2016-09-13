@@ -35,6 +35,13 @@ def parse_page(content):
 
     #get job info >>>>>>>>>>>>>
 
+    infoList = soup.find_all('table', attrs={'class': 'newlist'})
+    # print infoList
+    for info in infoList:
+        print info
+        # job = info.find('td',attrs={'class':'zwmc'})
+        # print job
+        # # feedback_rate = 
 while(True):
     if not url_queue.empty():
         current_url = url_queue.get()
