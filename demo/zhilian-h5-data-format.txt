@@ -1,0 +1,10 @@
+# this is a file to describe the html structure of zhilian job search.
+
+div.newlist_list-content_table
+	table.newlist
+		td.zwmc div a[innerHTML]
+		td.fk_lv span[innerHTML]
+		td.gsmc a[innerHTML]
+		td.zwyx[innerHTML]
+		td.gzdd[innerHTML]
+		td.gxsj span[innerHTML] 
